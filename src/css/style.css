@@ -10,7 +10,8 @@
     background:#242526;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    color: white;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
 }
 .left{
     overflow:hidden;
@@ -221,11 +222,38 @@ margin-left: -1px;
 margin-left: 1px;
 }
 
+#tres-pontos img {
+    width: 22px;
+    margin-top: -2px;
+    margin-left: -1px;
+}
+
+#tres-pontos  {
+    background-color: #FFF0;
+}
+
 .right .icon {
     background-color: #3E4042;
 }
 
+
 #profile {
+    display: flex;
     width: 100%;
-    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#profile-name {
+    display: flex;
+}
+
+#description {
+    padding: 15px;
+}
+
+#profile-photo {
+    margin-left: 0px;
+    margin-right: 10px;
+
 }
